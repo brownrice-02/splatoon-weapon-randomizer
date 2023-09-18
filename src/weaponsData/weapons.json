@@ -1,0 +1,55 @@
+{
+    "weapons": [
+      {
+        "name": { "tw": "廣域標記槍", "jp": "ボールドマーカー", "en": "Sploosh-o-matic" },
+        "series": "Shooters",
+        "image": "/weapon/Path_Wst_Shooter_Short_00.png"
+      },
+      {
+        "name": { "tw": "廣域標記槍 新型", "jp": "ボールドマーカーネオ", "en": "Neo Sploosh-o-matic" },
+        "series": "Shooters",
+        "image": "weapon/Path_Wst_Shooter_Short_01.png"
+      },
+      {
+        "name": { "tw": "新葉射擊槍", "jp": "わかばシューター", "en": "Splattershot Jr." },
+        "series": "Shooters",
+        "image": "weapon/Path_Wst_Shooter_First_00.png"
+      },
+      {
+        "name": { "tw": "楓葉射擊槍", "jp": "もみじシューター", "en": "Custom Splattershot Jr." },
+        "series": "Shooters",
+        "image": "weapon/Path_Wst_Shooter_First_01.png"
+      },
+      {
+        "name": { "tw": "窄域標記槍", "jp": "シャープマーカー", "en": "Splash-o-matic" },
+        "series": "Shooters",
+        "image": "weapon/Path_Wst_Shooter_Precision_00.png"
+      },
+      {
+        "name": { "tw": "窄域標記槍 新型", "jp": "シャープマーカーネオ", "en": "Neo Splash-o-matic" },
+        "series": "Shooters",
+        "image": "weapon/Path_Wst_Shooter_Precision_01.png"
+      },
+      {
+        "name": { "tw": "專業模型槍MG", "jp": "プロモデラーMG", "en": "Aerospray MG" },
+        "series": "Shooters",
+        "image": "weapon/Path_Wst_Shooter_Blaze_00.png"
+      },
+      {
+        "name": { "tw": "專業模型槍RG", "jp": "プロモデラーRG", "en": "Aerospray RG" },
+        "series": "Shooters",
+        "image": "weapon/Path_Wst_Shooter_Blaze_01.png"
+      },
+      {
+        "name": { "tw": "斯普拉射擊槍", "jp": "スプラシューター", "en": "Splattershot" },
+        "series": "Shooters",
+        "image": "weapon/Path_Wst_Shooter_Normal_00.png"
+      },
+      {
+        "name": { "tw": "斯普拉射擊槍 聯名", "jp": "スプラシューターコラボ", "en": "Tentatek Splattershot" },
+        "series": "Shooters",
+        "image": "weapon/Path_Wst_Shooter_Normal_01.png"
+      }
+    ]
+}
+  
