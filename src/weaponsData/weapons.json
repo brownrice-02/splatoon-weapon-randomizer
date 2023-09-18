@@ -2,53 +2,168 @@
     "weapons": [
       {
         "name": { "tw": "廣域標記槍", "jp": "ボールドマーカー", "en": "Sploosh-o-matic" },
-        "series": "Shooters",
+        "series": "Shooter",
         "image": "/weapon/Path_Wst_Shooter_Short_00.png"
       },
       {
         "name": { "tw": "廣域標記槍 新型", "jp": "ボールドマーカーネオ", "en": "Neo Sploosh-o-matic" },
-        "series": "Shooters",
+        "series": "Shooter",
         "image": "weapon/Path_Wst_Shooter_Short_01.png"
       },
       {
         "name": { "tw": "新葉射擊槍", "jp": "わかばシューター", "en": "Splattershot Jr." },
-        "series": "Shooters",
+        "series": "Shooter",
         "image": "weapon/Path_Wst_Shooter_First_00.png"
       },
       {
         "name": { "tw": "楓葉射擊槍", "jp": "もみじシューター", "en": "Custom Splattershot Jr." },
-        "series": "Shooters",
+        "series": "Shooter",
         "image": "weapon/Path_Wst_Shooter_First_01.png"
       },
       {
         "name": { "tw": "窄域標記槍", "jp": "シャープマーカー", "en": "Splash-o-matic" },
-        "series": "Shooters",
+        "series": "Shooter",
         "image": "weapon/Path_Wst_Shooter_Precision_00.png"
       },
       {
         "name": { "tw": "窄域標記槍 新型", "jp": "シャープマーカーネオ", "en": "Neo Splash-o-matic" },
-        "series": "Shooters",
+        "series": "Shooter",
         "image": "weapon/Path_Wst_Shooter_Precision_01.png"
       },
       {
         "name": { "tw": "專業模型槍MG", "jp": "プロモデラーMG", "en": "Aerospray MG" },
-        "series": "Shooters",
+        "series": "Shooter",
         "image": "weapon/Path_Wst_Shooter_Blaze_00.png"
       },
       {
         "name": { "tw": "專業模型槍RG", "jp": "プロモデラーRG", "en": "Aerospray RG" },
-        "series": "Shooters",
+        "series": "Shooter",
         "image": "weapon/Path_Wst_Shooter_Blaze_01.png"
       },
       {
         "name": { "tw": "斯普拉射擊槍", "jp": "スプラシューター", "en": "Splattershot" },
-        "series": "Shooters",
+        "series": "Shooter",
         "image": "weapon/Path_Wst_Shooter_Normal_00.png"
       },
       {
         "name": { "tw": "斯普拉射擊槍 聯名", "jp": "スプラシューターコラボ", "en": "Tentatek Splattershot" },
-        "series": "Shooters",
+        "series": "Shooter",
         "image": "weapon/Path_Wst_Shooter_Normal_01.png"
+      },
+      {
+        "name": { "tw": "英雄射擊槍 複製", "jp": "ヒーローシューター レプリカ", "en": "Hero Shot Replica" },
+        "series": "Shooter",
+        "image": "weapon/Path_Wst_Shooter_Normal_H.png"
+      },
+      {
+        "name": { "tw": ".52加侖", "jp": ".52ガロン", "en": ".52 Gal" },
+        "series": "Shooter",
+        "image": "weapon/Path_Wst_Shooter_Gravity_00.png"
+      },
+      {
+        "name": { "tw": "N-ZAP85", "jp": "N-ZAP85", "en": "N-ZAP '85" },
+        "series": "Shooter",
+        "image": "weapon/Path_Wst_Shooter_QuickMiddle_00.png"
+      },
+      {
+        "name": { "tw": "N-ZAP89", "jp": "N-ZAP89", "en": "N-ZAP '89" },
+        "series": "Shooter",
+        "image": "weapon/Path_Wst_Shooter_QuickMiddle_01.png"
+      },
+      {
+        "name": { "tw": "頂尖射擊槍", "jp": "プライムシューター", "en": "Splattershot Pro" },
+        "series": "Shooter",
+        "image": "weapon/Path_Wst_Shooter_Expert_00.png"
+      },
+      {
+        "name": { "tw": "頂尖射擊槍 聯名", "jp": "プライムシューターコラボ", "en": "Forge Splattershot Pro" },
+        "series": "Shooter",
+        "image": "weapon/Path_Wst_Shooter_Expert_01.png"
+      },
+      {
+        "name": { "tw": ".96加侖", "jp": ".96ガロン", "en": ".96 Gal" },
+        "series": "Shooter",
+        "image": "weapon/Path_Wst_Shooter_Heavy_00.png"
+      },
+      {
+        "name": { "tw": ".96加侖 裝飾", "jp": ".96ガロンデコ", "en": ".96 Gal Deco" },
+        "series": "Shooter",
+        "image": "weapon/Path_Wst_Shooter_Heavy_01.png"
+      },
+      {
+        "name": { "tw": "噴射清潔槍", "jp": "ジェットスイーパー", "en": "Jet Squelcher" },
+        "series": "Shooter",
+        "image": "weapon/Path_Wst_Shooter_Long_00.png"
+      },
+      {
+        "name": { "tw": "噴射清潔槍 改裝", "jp": "ジェットスイーパーカスタム", "en": "Custom Jet Squelcher" },
+        "series": "Shooter",
+        "image": "weapon/Path_Wst_Shooter_Long_01.png"
+      },
+      {
+        "name": { "tw": "太空射擊槍", "jp": "スペースシューター", "en": "Splattershot Nova" },
+        "series": "Shooter",
+        "image": "weapon/Path_Wst_Shooter_QuickLong_00.png"
+      },
+      {
+        "name": { "tw": "太空射擊槍 聯名", "jp": "スペースシューターコラボ", "en": "Annaki Splattershot Nova" },
+        "series": "Shooter",
+        "image": "weapon/Path_Wst_Shooter_QuickLong_01.png"
+      },
+      {
+        "name": { "tw": "新星爆破槍", "jp": "ノヴァブラスター", "en": "Luna Blaster" },
+        "series": "Blaster",
+        "image": "weapon/Path_Wst_Blaster_Short_00.png"
+      },
+      {
+        "name": { "tw": "新星爆破槍 新型", "jp": "ノヴァブラスターネオ", "en": "Luna Blaster Neo" },
+        "series": "Blaster",
+        "image": "weapon/Path_Wst_Blaster_Short_01.png"
+      },
+      {
+        "name": { "tw": "火熱爆破槍", "jp": "ホットブラスター", "en": "Blaster" },
+        "series": "Blaster",
+        "image": "weapon/Path_Wst_Blaster_Long_00.png"
+      },
+      {
+        "name": { "tw": "遠距爆破槍", "jp": "ロングブラスター", "en": "Range Blaster" },
+        "series": "Blaster",
+        "image": "weapon/Path_Wst_Blaster_Middle_00.png"
+      },
+      {
+        "name": { "tw": "衝塗爆破槍", "jp": "クラッシュブラスター", "en": "Clash Blaster" },
+        "series": "Blaster",
+        "image": "weapon/Path_Wst_Blaster_LightShort_00.png"
+      },
+      {
+        "name": { "tw": "衝塗爆破槍 新型", "jp": "クラッシュブラスターネオ", "en": "Clash Blaster Neo" },
+        "series": "Blaster",
+        "image": "weapon/Path_Wst_Blaster_LightShort_01.png"
+      },
+      {
+        "name": { "tw": "快速爆破槍", "jp": "ラピッドブラスター", "en": "Rapid Blaster" },
+        "series": "Blaster",
+        "image": "weapon/Path_Wst_Blaster_Light_00.png"
+      },
+      {
+        "name": { "tw": "快速爆破槍 裝飾", "jp": "ラピッドブラスターデコ", "en": "Rapid Blaster Deco" },
+        "series": "Blaster",
+        "image": "weapon/Path_Wst_Blaster_Light_01.png"
+      },
+      {
+        "name": { "tw": "快速爆破槍 精英", "jp": "Rブラスターエリート", "en": "Rapid Blaster Pro" },
+        "series": "Blaster",
+        "image": "weapon/Path_Wst_Blaster_LightLong_00.png"
+      },
+      {
+        "name": { "tw": "快速爆破槍 精英裝飾", "jp": "スペースシューターコラボ", "en": "Rapid Blaster Pro Deco" },
+        "series": "Blaster",
+        "image": "weapon/Path_Wst_Blaster_LightLong_01.png"
+      },
+      {
+        "name": { "tw": "S-BLAST92", "jp": "S-BLAST92", "en": "S-BLAST '92" },
+        "series": "Blaster",
+        "image": "weapon/Path_Wst_Blaster_Precision_00.png"
       }
     ]
 }
