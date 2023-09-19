@@ -71,7 +71,19 @@ p {
     gap: 0.3rem;
   }
 }
-@media (max-width: 480px) {
+@media (min-width: 388px) and (max-width: 480px) {
+  .weapon {
+    width: 80%;
+    height: 6rem;
+  }
+  .weapon-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    font-size: 0.6rem;
+  }
+}
+@media (max-width: 387px) {
   .weapon {
     width: 80%;
     height: 7rem;
