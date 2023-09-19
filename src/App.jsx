@@ -25,29 +25,31 @@ function App() {
 
   return (
     <>
-      <h1>Splatoon</h1>
-      <h2>私房武器抽選</h2>
-      <div className="card">
+      <div className="title">
+        <h1 style={{ color: "#7d7dfa" }}>Splatoon</h1>
+        <h1>私房武器抽選</h1>
+      </div>
+      <div className="picker">
         <button onClick={pickRandomWeapons}>隨機分配武器</button>
       </div>
       {randomWeapons.length > 0 && (
         <div className="weapons-container">
-          <div className="left-container">
+          <div className="team">
             {randomWeapons.slice(0, 4).map((weapon, index) => (
               <div key={index} className="weapon">
-                <div>
+                <p>
                   {weapon.name.tw} ({weapon.name.jp})
-                </div>
+                </p>
                 <img src={weapon.image} alt={weapon.name.tw} />
               </div>
             ))}
           </div>
-          <div className="right-container">
+          <div className="team">
             {randomWeapons.slice(4).map((weapon, index) => (
               <div key={index} className="weapon">
-                <div>
+                <p>
                   {weapon.name.tw} ({weapon.name.jp})
-                </div>
+                </p>
                 <img src={weapon.image} alt={weapon.name.tw} />
               </div>
             ))}
