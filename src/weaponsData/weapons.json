@@ -111,6 +111,31 @@
         "image": "weapon/Path_Wst_Shooter_QuickLong_01.png"
       },
       {
+        "name": { "tw": "L3捲管槍", "jp": "L3リールガン", "en": "L-3 Nozzlenose" },
+        "series": "Shooter",
+        "image": "weapon/Path_Wst_Shooter_TripleMiddle_00.png"
+      },
+      {
+        "name": { "tw": "L3捲管槍D", "jp": "L3リールガンD", "en": "L-3 Nozzlenose D" },
+        "series": "Shooter",
+        "image": "weapon/Path_Wst_Shooter_TripleMiddle_01.png"
+      },
+      {
+        "name": { "tw": "H3捲管槍", "jp": "H3リールガン", "en": "H-3 Nozzlenose" },
+        "series": "Shooter",
+        "image": "weapon/Path_Wst_Shooter_TripleQuick_00.png"
+      },
+      {
+        "name": { "tw": "H3捲管槍D", "jp": "H3リールガンD", "en": "H-3 Nozzlenose D" },
+        "series": "Shooter",
+        "image": "weapon/Path_Wst_Shooter_TripleQuick_01.png"
+      },
+      {
+        "name": { "tw": "開瓶噴泉槍", "jp": "ボトルガイザー", "en": "Squeezer" },
+        "series": "Shooter",
+        "image": "weapon/Path_Wst_Shooter_Flash_00.png"
+      },
+      {
         "name": { "tw": "新星爆破槍", "jp": "ノヴァブラスター", "en": "Luna Blaster" },
         "series": "Blaster",
         "image": "weapon/Path_Wst_Blaster_Short_00.png"
@@ -164,6 +189,181 @@
         "name": { "tw": "S-BLAST92", "jp": "S-BLAST92", "en": "S-BLAST '92" },
         "series": "Blaster",
         "image": "weapon/Path_Wst_Blaster_Precision_00.png"
+      },
+      {
+        "name": { "tw": "碳纖維滾筒", "jp": "カーボンローラー", "en": "Carbon Roller" },
+        "series": "Roller",
+        "image": "weapon/Path_Wst_Roller_Compact_00.png"
+      },
+      {
+        "name": { "tw": "碳纖維滾筒 裝飾", "jp": "カーボンローラーデコ", "en": "Carbon Roller Deco" },
+        "series": "Roller",
+        "image": "weapon/Path_Wst_Roller_Compact_01.png"
+      },
+      {
+        "name": { "tw": "斯普拉滾筒", "jp": "スプラローラー", "en": "Splat Roller" },
+        "series": "Roller",
+        "image": "weapon/Path_Wst_Roller_Normal_00.png"
+      },
+      {
+        "name": { "tw": "斯普拉滾筒 聯名", "jp": "スプラローラーコラボ", "en": "Krak-On Splat Roller" },
+        "series": "Roller",
+        "image": "weapon/Path_Wst_Roller_Normal_01.png"
+      },
+      {
+        "name": { "tw": "電動馬達滾筒", "jp": "ダイナモローラー", "en": "Dynamo Roller" },
+        "series": "Roller",
+        "image": "weapon/Path_Wst_Roller_Heavy_00.png"
+      },
+      {
+        "name": { "tw": "電動馬達滾筒 高磁波", "jp": "ダイナモローラーテスラ", "en": "Gold Dynamo Roller" },
+        "series": "Roller",
+        "image": "weapon/Path_Wst_Roller_Heavy_01.png"
+      },
+      {
+        "name": { "tw": "可變式滾筒", "jp": "ヴァリアブルローラー", "en": "Flingza Roller" },
+        "series": "Roller",
+        "image": "weapon/Path_Wst_Roller_Hunter_00.png"
+      },
+      {
+        "name": { "tw": "寬滾筒", "jp": "ワイドローラー", "en": "Big Swig Roller" },
+        "series": "Roller",
+        "image": "weapon/Path_Wst_Roller_Wide_00.png"
+      },
+      {
+        "name": { "tw": "寬滾筒 聯名", "jp": "ワイドローラーコラボ", "en": "Big Swig Roller Express" },
+        "series": "Roller",
+        "image": "weapon/Path_Wst_Roller_Wide_01.png"
+      },
+      {
+        "name": { "tw": "巴勃羅", "jp": "パブロ", "en": "Inkbrush" },
+        "series": "Brush",
+        "image": "weapon/Path_Wst_Brush_Mini_00.png"
+      },
+      {
+        "name": { "tw": "巴勃羅‧新藝術", "jp": "パブロ・ヒュー", "en": "Inkbrush Nouveau" },
+        "series": "Brush",
+        "image": "weapon/Path_Wst_Brush_Mini_01.png"
+      },
+      {
+        "name": { "tw": "北齋", "jp": "ホクサイ", "en": "Octobrush" },
+        "series": "Brush",
+        "image": "weapon/Path_Wst_Brush_Normal_00.png"
+      },
+      {
+        "name": { "tw": "北齋‧新藝術", "jp": "ホクサイ・ヒュー", "en": "Octobrush Nouveau" },
+        "series": "Brush",
+        "image": "weapon/Path_Wst_Brush_Normal_01.png"
+      },
+      {
+        "name": { "tw": "文森", "jp": "フィンセント", "en": "Painbrush" },
+        "series": "Brush",
+        "image": "weapon/Path_Wst_Brush_Heavy_00.png"
+      },
+      {
+        "name": { "tw": "魷快潔α", "jp": "スクイックリンα", "en": "Classic Squiffer" },
+        "series": "Charger",
+        "image": "weapon/Path_Wst_Charger_Quick_00.png"
+      },
+      {
+        "name": { "tw": "斯普拉蓄力狙擊槍", "jp": "スプラチャージャー", "en": "Splat Charger" },
+        "series": "Charger",
+        "image": "weapon/Path_Wst_Charger_Normal_00.png"
+      },
+      {
+        "name": { "tw": "斯普拉蓄力狙擊槍 聯名", "jp": "スプラチャージャーコラボ", "en": "Z+F Splat Charger" },
+        "series": "Charger",
+        "image": "weapon/Path_Wst_Charger_Normal_01.png"
+      },
+      {
+        "name": { "tw": "斯普拉準星槍", "jp": "スプラスコープ", "en": "Splatterscope" },
+        "series": "Charger",
+        "image": "weapon/Path_Wst_Charger_NormalScope_00.png"
+      },
+      {
+        "name": { "tw": "斯普拉準星槍 聯名", "jp": "スプラスコープコラボ", "en": "Z+F Splatterscope" },
+        "series": "Charger",
+        "image": "weapon/Path_Wst_Charger_NormalScope_01.png"
+      },
+      {
+        "name": { "tw": "公升4K", "jp": "リッター4K", "en": "E-liter 4K" },
+        "series": "Charger",
+        "image": "weapon/Path_Wst_Charger_Long_00.png"
+      },
+      {
+        "name": { "tw": "4K準星槍", "jp": "4Kスコープ", "en": "E-liter 4K Scope" },
+        "series": "Charger",
+        "image": "weapon/Path_Wst_Charger_LongScope_00.png"
+      },
+      {
+        "name": { "tw": "14式竹筒槍‧甲", "jp": "14式竹筒銃・甲", "en": "Bamboozler 14 Mk I" },
+        "series": "Charger",
+        "image": "weapon/Path_Wst_Charger_Light_00.png"
+      },
+      {
+        "name": { "tw": "高壓油管槍", "jp": "ソイチューバー", "en": "Goo Tuber" },
+        "series": "Charger",
+        "image": "weapon/Path_Wst_Charger_Keeper_00.png"
+      },
+      {
+        "name": { "tw": "高壓油管槍 改裝", "jp": "ソイチューバーカスタム", "en": "Custom Goo Tuber" },
+        "series": "Charger",
+        "image": "weapon/Path_Wst_Charger_Keeper_01.png"
+      },
+      {
+        "name": { "tw": "R-PEN/5H", "jp": "R-PEN/5H", "en": "Snipewriter 5H" },
+        "series": "Charger",
+        "image": "weapon/Path_Wst_Charger_Pencil_00.png"
+      },
+      {
+        "name": { "tw": "飛濺潑桶", "jp": "バケットスロッシャー", "en": "Slosher" },
+        "series": "Slosher",
+        "image": "weapon/Path_Wst_Slosher_Strong_00.png"
+      },
+      {
+        "name": { "tw": "飛濺潑桶 裝飾", "jp": "バケットスロッシャーデコ", "en": "Slosher Deco" },
+        "series": "Slosher",
+        "image": "weapon/Path_Wst_Slosher_Strong_01.png"
+      },
+      {
+        "name": { "tw": "洗筆桶", "jp": "ヒッセン", "en": "Tri-Slosher" },
+        "series": "Slosher",
+        "image": "weapon/Path_Wst_Slosher_Diffusion_00.png"
+      },
+      {
+        "name": { "tw": "洗筆桶‧新藝術", "jp": "ヒッセン・ヒュー", "en": "Tri-Slosher Nouveau" },
+        "series": "Slosher",
+        "image": "weapon/Path_Wst_Slosher_Diffusion_01.png"
+      },
+      {
+        "name": { "tw": "迴旋潑桶", "jp": "スクリュースロッシャー", "en": "Sloshing Machine" },
+        "series": "Slosher",
+        "image": "weapon/Path_Wst_Slosher_Launcher_00.png"
+      },
+      {
+        "name": { "tw": "迴旋潑桶 新型", "jp": "スクリュースロッシャーネオ", "en": "Sloshing Machine Neo" },
+        "series": "Slosher",
+        "image": "weapon/Path_Wst_Slosher_Launcher_01.png"
+      },
+      {
+        "name": { "tw": "滿溢泡澡潑桶", "jp": "オーバーフロッシャー", "en": "Bloblobber" },
+        "series": "Slosher",
+        "image": "weapon/Path_Wst_Slosher_Bathtub_00.png"
+      },
+      {
+        "name": { "tw": "滿溢泡澡潑桶 裝飾", "jp": "オーバーフロッシャーデコ", "en": "Bloblobber Deco" },
+        "series": "Slosher",
+        "image": "weapon/Path_Wst_Slosher_Bathtub_01.png"
+      },
+      {
+        "name": { "tw": "爆炸潑桶", "jp": "エクスプロッシャー", "en": "Explosher" },
+        "series": "Slosher",
+        "image": "weapon/Path_Wst_Slosher_Washtub_00.png"
+      },
+      {
+        "name": { "tw": "墨瀑淋", "jp": "モップリン", "en": "Dread Wringer" },
+        "series": "Slosher",
+        "image": "weapon/Path_Wst_Slosher_Double_00.png"
       }
     ]
 }
