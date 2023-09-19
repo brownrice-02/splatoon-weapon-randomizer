@@ -1,5 +1,5 @@
 #root {
-  /* max-width: 1280px; */
+  width: 100%;
   margin: 0 auto;
   /* padding: 1rem; */
   text-align: center;
@@ -29,7 +29,7 @@ p {
 .weapons-container {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .team {
@@ -40,19 +40,50 @@ p {
 }
 
 .weapon {
-  width: 18rem;
+  width: 19rem;
   height: 5rem;
-  margin: 0.8em;
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
   padding: 0.6em;
   border: 1px solid #ccc;
   border-radius: 5px;
   text-align: center;
 }
-.weapon p {
+
+.weapon-text {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+
   font-weight: bold;
   padding: 0rem;
   font-size: 0.8rem;
 }
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .weapon {
+    width: 82%;
+    height: 7rem;
+  }
+  .weapon-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+}
+@media (max-width: 480px) {
+  .weapon {
+    width: 80%;
+    height: 7rem;
+  }
+  .weapon-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    font-size: 0.6rem;
+  }
+}
+
 .weapon img {
   max-width: 4rem;
   height: auto;

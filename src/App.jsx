@@ -37,9 +37,10 @@ function App() {
           <div className="team">
             {randomWeapons.slice(0, 4).map((weapon, index) => (
               <div key={index} className="weapon">
-                <p>
-                  {weapon.name.tw} ({weapon.name.jp})
-                </p>
+                <div className="weapon-text">
+                  <p>{weapon.name.tw}</p>
+                  <p className="weapon-text-jp">({weapon.name.jp})</p>
+                </div>
                 <img src={weapon.image} alt={weapon.name.tw} />
               </div>
             ))}
@@ -47,9 +48,10 @@ function App() {
           <div className="team">
             {randomWeapons.slice(4).map((weapon, index) => (
               <div key={index} className="weapon">
-                <p>
-                  {weapon.name.tw} ({weapon.name.jp})
-                </p>
+                <div className="weapon-text">
+                  <p>{weapon.name.tw}</p>
+                  <p className="weapon-text-jp">({weapon.name.jp})</p>
+                </div>
                 <img src={weapon.image} alt={weapon.name.tw} />
               </div>
             ))}
