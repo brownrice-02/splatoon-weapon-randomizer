@@ -364,6 +364,146 @@
         "name": { "tw": "墨瀑淋", "jp": "モップリン", "en": "Dread Wringer" },
         "series": "Slosher",
         "image": "weapon/Path_Wst_Slosher_Double_00.png"
+      },
+      {
+        "name": { "tw": "斯普拉旋轉槍", "jp": "スプラスピナー", "en": "Path_Wst_Spinner_Quick_00.png" },
+        "series": "Splatling",
+        "image": "weapon/Path_Wst_Slosher_Double_00.png"
+      },
+      {
+        "name": { "tw": "斯普拉旋轉槍 聯名", "jp": "スプラスピナーコラボ", "en": "Zink Mini Splatling" },
+        "series": "Splatling",
+        "image": "weapon/Path_Wst_Spinner_Quick_01.png"
+      },
+      {
+        "name": { "tw": "桶裝旋轉槍", "jp": "バレルスピナー", "en": "Dread Wringer" },
+        "series": "Splatling",
+        "image": "weapon/Path_Wst_Spinner_Standard_00.png"
+      },
+      {
+        "name": { "tw": "桶裝旋轉槍 裝飾", "jp": "バレルスピナーデコ", "en": "Heavy Splatling" },
+        "series": "Splatling",
+        "image": "weapon/Path_Wst_Spinner_Standard_01.webp"
+      },
+      {
+        "name": { "tw": "消防栓旋轉槍", "jp": "ハイドラント", "en": "Hydra Splatling" },
+        "series": "Splatling",
+        "image": "weapon/Path_Wst_Spinner_Hyper_00.png"
+      },
+      {
+        "name": { "tw": "圓珠筆", "jp": "クーゲルシュライバー", "en": "Ballpoint Splatling" },
+        "series": "Splatling",
+        "image": "weapon/Path_Wst_Spinner_Downpour_00.png"
+      },
+      {
+        "name": { "tw": "圓珠筆‧新藝術", "jp": "クーゲルシュライバー・ヒュー", "en": "Ballpoint Splatling Nouveau" },
+        "series": "Splatling",
+        "image": "weapon/Path_Wst_Spinner_Downpour_01.png"
+      },
+      {
+        "name": { "tw": "鸚鵡螺號47", "jp": "ノーチラス47", "en": "Nautilus 47" },
+        "series": "Splatling",
+        "image": "weapon/Path_Wst_Spinner_Serein_00.png"
+      },
+      {
+        "name": { "tw": "審查者", "jp": "イグザミナー", "en": "Heavy Edit Splatling" },
+        "series": "Splatling",
+        "image": "weapon/Path_Wst_Spinner_HyperShort_00.png"
+      },
+      {
+        "name": { "tw": "濺鍍槍", "jp": "スパッタリー", "en": "Dapple Dualies" },
+        "series": "Dualies",
+        "image": "weapon/Path_Wst_Maneuver_Short_00.png"
+      },
+      {
+        "name": { "tw": "濺鍍槍‧新藝術", "jp": "スパッタリー・ヒュー", "en": "Dapple Dualies Nouveau" },
+        "series": "Dualies",
+        "image": "weapon/Path_Wst_Maneuver_Short_01.png"
+      },
+      {
+        "name": { "tw": "斯普拉機動槍", "jp": "スプラマニューバー", "en": "Splat Dualies" },
+        "series": "Dualies",
+        "image": "weapon/Path_Wst_Maneuver_Normal_00.png"
+      },
+      {
+        "name": { "tw": "開爾文525", "jp": "ケルビン525", "en": "Glooga Dualies" },
+        "series": "Dualies",
+        "image": "weapon/Path_Wst_Maneuver_Gallon_00.png"
+      },
+      {
+        "name": { "tw": "雙重清潔槍", "jp": "デュアルスイーパー", "en": "Dualie Squelchers" },
+        "series": "Dualies",
+        "image": "weapon/Path_Wst_Maneuver_Dual_00.png"
+      },
+      {
+        "name": { "tw": "雙重清潔槍 改裝", "jp": "デュアルスイーパーカスタム", "en": "Custom Dualie Squelchers" },
+        "series": "Dualies",
+        "image": "weapon/Path_Wst_Maneuver_Dual_01.png"
+      },
+      {
+        "name": { "tw": "四重彈跳手槍 黑", "jp": "クアッドホッパーブラック", "en": "Dark Tetra Dualies" },
+        "series": "Dualies",
+        "image": "weapon/Path_Wst_Maneuver_Stepper_00.png"
+      },
+      {
+        "name": { "tw": "四重彈跳手槍 白", "jp": "クアッドホッパーホワイト", "en": "Light Tetra Dualies" },
+        "series": "Dualies",
+        "image": "weapon/Path_Wst_Maneuver_Stepper_01.png"
+      },
+      {
+        "name": { "tw": "遮陽防空傘", "jp": "パラシェルター", "en": "Splat Brella" },
+        "series": "Brella",
+        "image": "weapon/Path_Wst_Shelter_Normal_00.png"
+      },
+      {
+        "name": { "tw": "遮陽防空傘 姐妹", "jp": "パラシェルターソレーラ", "en": "Sorella Brella" },
+        "series": "Brella",
+        "image": "weapon/Path_Wst_Shelter_Normal_01.png"
+      },
+      {
+        "name": { "tw": "露營防空傘", "jp": "キャンピングシェルター", "en": "Tenta Brella" },
+        "series": "Brella",
+        "image": "weapon/Path_Wst_Shelter_Wide_00.png"
+      },
+      {
+        "name": { "tw": "露營防空傘 姐妹", "jp": "キャンピングシェルターソレーラ", "en": "Tenta Sorella Brella" },
+        "series": "Brella",
+        "image": "weapon/Path_Wst_Shelter_Wide_01.png"
+      },
+      {
+        "name": { "tw": "特務配件", "jp": "スパイガジェット", "en": "Undercover Brella" },
+        "series": "Brella",
+        "image": "weapon/Path_Wst_Shelter_Compact_00.png"
+      },
+      {
+        "name": { "tw": "三發獵魚弓", "jp": "トライストリンガー", "en": "Tri-Stringer" },
+        "series": "Stringer",
+        "image": "weapon/Path_Wst_Stringer_Normal_00.png"
+      },
+      {
+        "name": { "tw": "三發獵魚弓 聯名", "jp": "トライストリンガーコラボ", "en": "Inkline Tri-Stringer" },
+        "series": "Stringer",
+        "image": "weapon/Path_Wst_Stringer_Normal_01.png"
+      },
+      {
+        "name": { "tw": "LACT-450", "jp": "LACT-450", "en": "REEF-LUX 450" },
+        "series": "Stringer",
+        "image": "weapon/Path_Wst_Stringer_Short_00.png"
+      },
+      {
+        "name": { "tw": "工作刮水刀", "jp": "ジムワイパー", "en": "Splatana Stamper" },
+        "series": "Splatana",
+        "image": "weapon/Path_Wst_Saber_Normal_00.png"
+      },
+      {
+        "name": { "tw": "雨刷刮水刀", "jp": "ドライブワイパー", "en": "Splatana Wiper" },
+        "series": "Splatana",
+        "image": "weapon/Path_Wst_Saber_Lite_00.png"
+      },
+      {
+        "name": { "tw": "雨刷刮水刀 裝飾", "jp": "ドライブワイパーデコ", "en": "Splatana Wiper Deco" },
+        "series": "Splatana",
+        "image": "weapon/Path_Wst_Saber_Lite_01.png"
       }
     ]
 }

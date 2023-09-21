@@ -40,7 +40,7 @@ p {
 }
 
 .weapon {
-  width: 19rem;
+  width: 20rem;
   height: 5rem;
   margin-top: 0.8em;
   margin-bottom: 0.8em;
@@ -60,7 +60,7 @@ p {
   font-size: 0.8rem;
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 495px) and (max-width: 768px) {
   .weapon {
     width: 82%;
     height: 7rem;
@@ -71,7 +71,7 @@ p {
     gap: 0.3rem;
   }
 }
-@media (min-width: 388px) and (max-width: 480px) {
+@media (min-width: 478px) and (max-width: 494px) {
   .weapon {
     width: 80%;
     height: 6rem;
@@ -83,7 +83,7 @@ p {
     font-size: 0.6rem;
   }
 }
-@media (max-width: 387px) {
+@media (max-width: 477px) {
   .weapon {
     width: 80%;
     height: 7rem;
