@@ -368,7 +368,7 @@
       {
         "name": { "tw": "斯普拉旋轉槍", "jp": "スプラスピナー", "en": "Path_Wst_Spinner_Quick_00.png" },
         "series": "Splatling",
-        "image": "weapon/Path_Wst_Slosher_Double_00.png"
+        "image": "weapon/Path_Wst_Spinner_Quick_00.png"
       },
       {
         "name": { "tw": "斯普拉旋轉槍 聯名", "jp": "スプラスピナーコラボ", "en": "Zink Mini Splatling" },
