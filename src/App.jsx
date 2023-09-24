@@ -4,7 +4,6 @@ import weaponsData from "./weaponsData/weapons.json";
 import Select from "@mui/material/Select";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
-import InputLabel from "@mui/material/InputLabel";
 
 function App() {
   const [randomWeapons, setRandomWeapons] = useState([]);
