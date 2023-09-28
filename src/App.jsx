@@ -8,6 +8,19 @@ import InputLabel from "@mui/material/InputLabel";
 import Checkbox from "@mui/material/Checkbox";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Autocomplete from "@mui/material/Autocomplete";
+import { makeStyles } from "@material-ui/core/styles";
+
+const useStyles = makeStyles(() => ({
+  formControl: {
+    "& .MuiInput-underline:hover:not(.Mui-disabled):before": {
+      borderBottom: "1px solid #646cff",
+      // transition: "border-color 0.3s ease",
+    },
+  },
+  select: {
+    height: "100%",
+  },
+}));
 
 const categoryNames = {
   Shooter: "射擊槍",
@@ -24,6 +37,7 @@ const categoryNames = {
 };
 
 function App() {
+  const classes = useStyles();
   const [randomWeapons, setRandomWeapons] = useState([]);
   const [allowDuplicates, setAllowDuplicates] = useState(false);
   const numberOfWeaponsToPick = 8;
@@ -116,27 +130,14 @@ function App() {
             )}
           />
         </FormControl>
-        <FormControl
-          variant="standard"
-          sx={{
-            minWidth: 120,
-            height: 38,
-            "& .css-1bzms6n-MuiInputBase-root-MuiInput-root-MuiSelect-root:hover:not(.Mui-disabled, .Mui-error):before":
-              {
-                borderBottom: "1px solid #646cff",
-              },
-          }}
-          size="small"
-        >
+        <FormControl className={classes.formControl}>
           <Select
+            variant="standard"
+            className={classes.select}
             labelId="duplicates-label"
             id="duplicates-select"
             value={allowDuplicates}
             onChange={toggleDuplicates}
-            sx={{
-              transition: "border-color 0.3s ease",
-              height: "100%",
-            }}
           >
             <MenuItem value={false}>不重複</MenuItem>
             <MenuItem value={true}>可重複</MenuItem>
