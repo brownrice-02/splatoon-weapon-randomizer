@@ -64,6 +64,11 @@ function App() {
 
     const selectedWeapons = [];
 
+    if (!allowDuplicates && selectedWeapons.length < numberOfWeaponsToPick) {
+      alert("請選擇更多的武器分類，或更改成可重複");
+      return;
+    }
+
     while (selectedWeapons.length < numberOfWeaponsToPick) {
       const randomIndex = Math.floor(Math.random() * filteredWeapons.length);
       const selectedWeapon = filteredWeapons[randomIndex];
