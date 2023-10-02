@@ -17,6 +17,13 @@ const useStyles = makeStyles(() => ({
       // transition: "border-color 0.3s ease",
     },
   },
+  autocomplete: {
+    "& input:hover": {
+      height: "100%",
+      border: "2px solid #646cff",
+      borderRadius: "3px",
+    },
+  },
   select: {
     height: "100%",
   },
@@ -41,7 +48,7 @@ function App() {
   const [randomWeapons, setRandomWeapons] = useState([]);
   const [allowDuplicates, setAllowDuplicates] = useState(false);
   const numberOfWeaponsToPick = 8;
-  const [selectedCategories, setSelectedCategories] = useState([]); // 初始为空数组
+  const [selectedCategories, setSelectedCategories] = useState([]);
 
   const toggleDuplicates = () => {
     setAllowDuplicates((prev) => !prev);
@@ -92,25 +99,22 @@ function App() {
           component="fieldset"
           sx={{
             m: 1,
-            minWidth: 120,
+            minWidth: 100,
             height: 38,
-            margin: 0,
+            borderRadius: "20px",
           }}
           size="small"
         >
           <InputLabel>選擇武器分類</InputLabel>
           <Autocomplete
+            className={classes.autocomplete}
             multiple
             id="category-select"
             options={weaponCategories}
             disableCloseOnSelect
             value={selectedCategories}
             sx={{
-              margin: 0,
-              height: "100%",
-              "& .css-57j86e-MuiFormControl-root": {
-                margin: 0,
-              },
+              height: 38,
             }}
             onChange={(event, newValue) => {
               setSelectedCategories(newValue);
