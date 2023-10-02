@@ -12,6 +12,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles(() => ({
   formControl: {
+    justifyContent: "center",
     "& .MuiInput-underline:hover:not(.Mui-disabled):before": {
       borderBottom: "1px solid #646cff",
       // transition: "border-color 0.3s ease",
@@ -25,7 +26,7 @@ const useStyles = makeStyles(() => ({
     },
   },
   select: {
-    height: "100%",
+    height: 32,
   },
 }));
 
@@ -94,59 +95,61 @@ function App() {
         <h1 style={{ color: "#7d7dfa" }}>Splatoon</h1>
         <h1>私房武器抽選</h1>
       </div>
-      <div className="picker">
-        <FormControl
-          component="fieldset"
-          sx={{
-            m: 1,
-            minWidth: 100,
-            height: 38,
-            borderRadius: "20px",
-          }}
-          size="small"
-        >
-          <InputLabel>選擇武器分類</InputLabel>
-          <Autocomplete
-            className={classes.autocomplete}
-            multiple
-            id="category-select"
-            options={weaponCategories}
-            disableCloseOnSelect
-            value={selectedCategories}
+      <div>
+        <div className="picker">
+          <FormControl
+            component="fieldset"
             sx={{
-              height: 38,
+              m: 1,
+              minWidth: 120,
+              height: 35,
+              borderRadius: "20px",
             }}
-            onChange={(event, newValue) => {
-              setSelectedCategories(newValue);
-            }}
-            renderOption={(props, option, { selected }) => (
-              <li {...props}>
-                <FormControlLabel
-                  control={<Checkbox checked={selected} />}
-                  label={categoryNames[option]}
-                />
-              </li>
-            )}
-            renderInput={(params) => (
-              <div ref={params.InputProps.ref} style={{ height: "100%" }}>
-                <input {...params.inputProps} style={{ height: "100%" }} />
-              </div>
-            )}
-          />
-        </FormControl>
-        <FormControl className={classes.formControl}>
-          <Select
-            variant="standard"
-            className={classes.select}
-            labelId="duplicates-label"
-            id="duplicates-select"
-            value={allowDuplicates}
-            onChange={toggleDuplicates}
+            size="small"
           >
-            <MenuItem value={false}>不重複</MenuItem>
-            <MenuItem value={true}>可重複</MenuItem>
-          </Select>
-        </FormControl>
+            <InputLabel>選擇武器分類</InputLabel>
+            <Autocomplete
+              className={classes.autocomplete}
+              multiple
+              id="category-select"
+              options={weaponCategories}
+              disableCloseOnSelect
+              value={selectedCategories}
+              sx={{
+                height: "100%",
+              }}
+              onChange={(event, newValue) => {
+                setSelectedCategories(newValue);
+              }}
+              renderOption={(props, option, { selected }) => (
+                <li {...props}>
+                  <FormControlLabel
+                    control={<Checkbox checked={selected} />}
+                    label={categoryNames[option]}
+                  />
+                </li>
+              )}
+              renderInput={(params) => (
+                <div ref={params.InputProps.ref} style={{ height: "100%" }}>
+                  <input {...params.inputProps} style={{ height: "100%" }} />
+                </div>
+              )}
+            />
+          </FormControl>
+          <FormControl className={classes.formControl}>
+            <Select
+              variant="standard"
+              className={classes.select}
+              labelId="duplicates-label"
+              id="duplicates-select"
+              value={allowDuplicates}
+              onChange={toggleDuplicates}
+            >
+              <MenuItem value={false}>不重複</MenuItem>
+              <MenuItem value={true}>可重複</MenuItem>
+            </Select>
+          </FormControl>
+        </div>
         <button onClick={pickRandomWeapons}>隨機分配武器</button>
       </div>
       {randomWeapons.length > 0 && (
