@@ -504,6 +504,51 @@
         "name": { "tw": "雨刷刮水刀 裝飾", "jp": "ドライブワイパーデコ", "en": "Splatana Wiper Deco" },
         "series": "Splatana",
         "image": "weapon/Path_Wst_Saber_Lite_01.png"
+      },
+      {
+        "name": { "tw": "火熱爆破槍 改裝", "jp": "ホットブラスターカスタム", "en": "Custom Blaster" },
+        "series": "Blaster",
+        "image": "weapon/Path_Wst_Blaster_Middle_01.png"
+      },
+      {
+        "name": { "tw": "S-BLAST91", "jp": "S-BLAST91", "en": "S-BLAST '91" },
+        "series": "Blaster",
+        "image": "weapon/Path_Wst_Blaster_Precision_01.png"
+      },
+      {
+        "name": { "tw": "開瓶噴泉槍 金屬箔", "jp": "ボトルガイザーフォイル", "en": "Foil Squeezer" },
+        "series": "Shooter",
+        "image": "weapon/Path_Wst_Shooter_Flash_01.png"
+      },
+      {
+        "name": { "tw": "文森‧新藝術", "jp": "フィンセント・ヒュー", "en": "Painbrush Nouveau" },
+        "series": "Brush",
+        "image": "weapon/Path_Wst_Brush_Heavy_01.png"
+      },
+      {
+        "name": { "tw": "R-PEN/5B", "jp": "R-PEN/5B", "en": "Snipewriter 5B" },
+        "series": "Charger",
+        "image": "weapon/PPath_Wst_Charger_Pencil_01.png"
+      },
+      {
+        "name": { "tw": "斯普拉機動槍 聯名", "jp": "スプラマニューバーコラボ", "en": "Enperry Splat Dualies" },
+        "series": "Dualies",
+        "image": "weapon/Path_Wst_Maneuver_Normal_01.png"
+      },
+      {
+        "name": { "tw": "特務配件 姐妹", "jp": "スパイガジェットソレーラ", "en": "Undercover Sorella Brella" },
+        "series": "Brella",
+        "image": "weapon/Path_Wst_Shelter_Compact_01.png"
+      },
+      {
+        "name": { "tw": "LACT-450 裝飾", "jp": "LACT-450デコ", "en": "REEF-LUX 450 Deco" },
+        "series": "Brella",
+        "image": "weapon/Path_Wst_Stringer_Short_01.png"
+      },
+      {
+        "name": { "tw": "工作刮水刀‧新藝術", "jp": "ジムワイパー・ヒュー", "en": "Neo Splatana Stamper" },
+        "series": "Splatana",
+        "image": "weapon/Path_Wst_Saber_Normal_01.png"
       }
     ]
 }
