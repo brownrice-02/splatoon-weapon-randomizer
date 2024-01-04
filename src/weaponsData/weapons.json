@@ -528,7 +528,7 @@
       {
         "name": { "tw": "R-PEN/5B", "jp": "R-PEN/5B", "en": "Snipewriter 5B" },
         "series": "Charger",
-        "image": "weapon/PPath_Wst_Charger_Pencil_01.png"
+        "image": "weapon/Path_Wst_Charger_Pencil_01.png"
       },
       {
         "name": { "tw": "斯普拉機動槍 聯名", "jp": "スプラマニューバーコラボ", "en": "Enperry Splat Dualies" },
